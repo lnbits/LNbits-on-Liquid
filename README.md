@@ -20,6 +20,7 @@ export PATH="/home/$USER/.local/bin:$PATH"
 https://github.com/BoltzExchange/boltz-client/releases
 
 ```
+wget <release>
 tar -xvzf <release>
 cd bin/linux
 chmod +x boltzd
