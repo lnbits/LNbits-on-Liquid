@@ -36,7 +36,7 @@ export PATH="/home/$USER/.local/bin:$PATH"
 
 https://blockstream.com/green/
 
-### Set you DNS records
+### Set your DNS records
 
 ![image](https://github.com/user-attachments/assets/2ad63f5e-4f9a-4500-a4e4-b8f02ae321dc)
 
