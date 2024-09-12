@@ -10,6 +10,10 @@ Video tutorial using lunanode:
 wget https://raw.githubusercontent.com/lnbits/lnbits/main/lnbits.sh &&
 chmod +x lnbits.sh &&
 ./lnbits.sh
+# Once finished ctrl+c to shut down
+# To run again
+export PATH="/home/$USER/.local/bin:$PATH"
+./lnbits.sh
 ```
 
 ### Install Boltz
