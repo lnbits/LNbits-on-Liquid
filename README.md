@@ -3,6 +3,22 @@
 Using trustless atomic swaps via boltz to run LNbits of Liquid!
 
 Video tutorial using lunanode:
+(We use `screen` sessions in the video tutorial to run but for production systemctl would make more sense)
+
+### Install Boltz
+https://github.com/BoltzExchange/boltz-client/releases
+
+```
+wget <amd-release>
+tar -xvzf <amd-release>
+cd bin/linux_amd64
+chmod +x boltzd
+chmod +x boltzcli
+
+# Run boltz and create a Liqud wallet
+./boltzd --standalone
+./boltzcli wallet create lnbits lbtc
+```
 
 ### Install LNbits
 
@@ -14,21 +30,6 @@ chmod +x lnbits.sh &&
 # To run again
 export PATH="/home/$USER/.local/bin:$PATH"
 ./lnbits.sh
-```
-
-### Install Boltz
-https://github.com/BoltzExchange/boltz-client/releases
-
-```
-wget <release>
-tar -xvzf <release>
-cd bin/linux
-chmod +x boltzd
-chmod +x boltzcli
-
-# Run boltz and create a Liqud wallet
-./boltzcli --standalone
-./boltzcli wallet create lnbits lbtc
 ```
 
 ### Install Greenlight
