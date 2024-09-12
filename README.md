@@ -45,5 +45,7 @@ https://blockstream.com/green/
 https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 ```
-caddy reverse-proxy --from example.com --to :5000
+# Note your DNS record may take a while to propogate, so if this fails wait a little while and try again.
+caddy stop
+sudo caddy reverse-proxy --from yoururl.com --to :5000
 ```
