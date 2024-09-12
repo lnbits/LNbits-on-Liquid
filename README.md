@@ -2,7 +2,8 @@
 
 Using trustless atomic swaps via boltz to run LNbits on Liquid!
 
-<a href="youtube.com">Video tutorial</a> using lunanode:
+Video tutorial using lunanode:
+https://www.youtube.com/watch?v=AbWBagSHBsM
 (We use `screen` sessions in the video tutorial to run but for production systemctl would make more sense)
 
 ### Install Boltz
